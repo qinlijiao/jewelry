@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:"宋体"; font-size:12px; margin:0;}
+*{ list-style:none; border:none;  margin:0; padding:0; text-decoration:none;}
+#wrap{ width:1200px; margin:0 auto; }
+/*header*/
+#header{ width:1200px; height:510px; background:url(../img/banner.jpg) no-repeat; position:relative;}
+#header h1{ color:#e50f31; font-size:48px; padding:55px 0 0 120px; font-family:Consolas; float:left;}
+#header .menu{ float:left; padding:66px 0 0 224px; height:40px;}
+#header .menu li{ float:left;}
+#header .menu li a{ color:#FFF; display:block; font-size:18px; line-height:40px; padding-left:26px; padding-right:26px;}
+#header .menu li a:hover{ color:#FFF; background:#ca180e;}
+#header .menu li a.more{ padding-right:4px;}
+#header .menu li a.more:hover{ padding-right:4px; background:none;}
+#more{ margin-top:9px;}
+#header #list{ width:108px; height:160px; position:absolute; top:103px; left:993px; display:none;}
+#header #list li a{ font-size:18px; line-height:40px; color:#FFF; display:block;}
+#header #list li a:hover{background:#ca180e;}
+/*contents*/
+#contents{ width:1200px; height:2850px; overflow:hidden; background:#f5f4f4;}
+#contents .ctit{ margin:70px 0 7px 0;}
+hr{ border:1px solid #959595;}
+#contents .cc{ width:1100px; height:830px; margin:50px 0 0 50px;}
+#contents .cc div{ width:323px; height:366px; margin:60px 0 0 30px; border:1px solid #959595; float:left;}
+#contents .cc div p{ text-align:center; color:#4d4c4c; font-family:"黑体"; font-size:18px; margin-top:10px;}
+#contents .cc div .goumai{ padding-left:78px; padding-top:25px;}
+#contents .ye{ float:right; height:80px; margin-top:40px;}
+#contents .ye a{ font-size:18px; margin-right:80px; color:#959595; text-align:center;}
+#contents .ye .shangye{ margin-right:40px;}
+/*footer*/
+#footer{ width:1200px; height:268px; background-color:#3a3a3a;}
+#footer a{ color:#FFF;}
+#footer .f1{ height:220px; width:176px; padding-left:170px; float:left; }
+#footer .fp1{ margin-top:55px; text-align:center; color:#FFF; font-size:18px; font-family:"黑体";}
+#footer .fp2{ padding-top:20px; color:#FFF; font-size:12px;}
+#footer .fp2 p{text-align:center; line-height:18px;}
+#footer .f2{ padding-left:78px; width:153px; float:left; height:220px;}
+#footer .f3{ padding-left:45px; width:153px; float:left; height:220px;}
+#footer .f4{ padding-left:58px; width:153px; float:left; height:220px;}
+#footer .f5{ text-align:center; width:1200px; float:left; color:#FFF;}
+
+

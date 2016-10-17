@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:"宋体"; font-size:12px; margin:0;}
+*{ list-style:none; border:none;  margin:0; padding:0; text-decoration:none;}
+#wrap{ width:1200px; margin:0 auto; }
+/*header*/
+#header{ width:1200px; height:582px; background:url(../img/activity.jpg) no-repeat; position:relative;}
+#header h1{ color:#e50f31; font-size:48px; padding:55px 0 0 120px; font-family:Consolas; float:left;}
+#header .menu{ float:left; padding:66px 0 0 224px; height:40px;}
+#header .menu li{ float:left;}
+#header .menu li a{ color:#FFF; display:block; font-size:18px; line-height:40px; padding-left:26px; padding-right:26px;}
+#header .menu li a:hover{ color:#FFF; background:#ca180e;}
+#header .menu li a.more{ padding-right:4px;}
+#header .menu li a.more:hover{ padding-right:4px; background:none;}
+#more{ margin-top:9px;}
+#header #list{ width:108px; height:160px; position:absolute; top:103px; left:993px; display:none;}
+#header #list li a{ font-size:18px; line-height:40px; color:#FFF; display:block;}
+#header #list li a:hover{background:#ca180e;}
+/*contents*/
+#contents{ width:1200px; height:1252px; margin-top:55px; background:url(../img/yujianbg.jpg) no-repeat;}
+#contents img{ position:relative; top:1093px; left:464px;}
+/*footer*/
+#footer{ width:1200px; height:268px; background-color:#3a3a3a;}
+#footer a{ color:#FFF;}
+#footer .f1{ height:220px; width:176px; padding-left:170px; float:left; }
+#footer .fp1{ margin-top:55px; text-align:center; color:#FFF; font-size:18px; font-family:"黑体";}
+#footer .fp2{ padding-top:20px; color:#FFF; font-size:12px;}
+#footer .fp2 p{text-align:center; line-height:18px;}
+#footer .f2{ padding-left:78px; width:153px; float:left; height:220px;}
+#footer .f3{ padding-left:45px; width:153px; float:left; height:220px;}
+#footer .f4{ padding-left:58px; width:153px; float:left; height:220px;}
+#footer .f5{ text-align:center; width:1200px; float:left; color:#FFF;}
+
+

@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:"宋体"; font-size:12px; margin:0;}
+*{ list-style:none; border:none;  margin:0; padding:0; text-decoration:none;}
+#wrap{ width:1200px; margin:0 auto; }
+/*header*/
+#header{ width:1200px; height:510px; background:url(../img/banner.jpg) no-repeat; position:relative;}
+#header h1{ color:#e50f31; font-size:48px; padding:55px 0 0 120px; font-family:Consolas; float:left;}
+#header .menu{ float:left; padding:66px 0 0 224px; height:40px;}
+#header .menu li{ float:left;}
+#header .menu li a{ color:#FFF; display:block; font-size:18px; line-height:40px; padding-left:26px; padding-right:26px;}
+#header .menu li a:hover{ color:#FFF; background:#ca180e;}
+#header .menu li a.more{ padding-right:4px;}
+#header .menu li a.more:hover{ padding-right:4px; background:none;}
+#more{ margin-top:9px;}
+#header #list{ width:108px; height:160px; position:absolute; top:103px; left:993px; display:none;}
+#header #list li a{ font-size:18px; line-height:40px; color:#FFF; display:block;}
+#header #list li a:hover{background:#ca180e;}
+/*contents*/
+#contents{}
+#contents .tit1{ padding:58px 0 45px 318px;}
+#contents .lili{ height:696px; width:1196px; border:2px solid #f393a2;}
+#contents .lili .lili1{ float:left; margin:30px 0 0 50px;}
+#contents .lili .lili2{ float:left; margin:30px 0 0 8px;}
+#contents .lili .lili3{ float:left; margin:30px 0 0 8px;}
+#contents .lili .lili4{ padding-top:8px;}
+#contents .more1{ float:left; width:181px; height:18px; font-size:18px; color:#854631; padding:25px 0 0 1000px;}
+#contents .more1 a{ color:#854631;}
+#contents .chanel{ height:742px; width:1196px; border:2px solid #f393a2;}
+#contents .chanel div{ float:left;}
+#contents .chanel1{ padding:54px 0 0 68px;} 
+#contents .chanel2{ padding:54px 0 0 44px;} 
+#contents .chanel3{ padding:54px 0 0 23px;} 
+#contents .chanel4{ padding:16px 0 0 44px;} 
+#contents .chanel5{ padding:16px 0 0 23px;} 
+#contents .tit2{ padding:51px 0 52px 295px;}
+#contents .danpin{ width:1100px; height:461px; margin-left:87px;}
+#contents .danpin dl{ width:328px; height:404px; border:#f7b7c1 1px solid; float:left; margin-right:25px;}
+#contents .danpin dl dt{ width:328px; height:327px; border-bottom:#f7b7c1 1px solid;}
+#contents .danpin dl dd{ font-size:18px; font-family:"黑体"; text-align:center; width:328px; line-height:70px; color:#484847;}
+/*footer*/
+#footer{ width:1200px; height:268px; background-color:#3a3a3a;}
+#footer a{ color:#FFF;}
+#footer .f1{ height:220px; width:176px; padding-left:170px; float:left; }
+#footer .fp1{ margin-top:55px; text-align:center; color:#FFF; font-size:18px; font-family:"黑体";}
+#footer .fp2{ padding-top:20px; color:#FFF; font-size:12px;}
+#footer .fp2 p{text-align:center; line-height:18px;}
+#footer .f2{ padding-left:78px; width:153px; float:left; height:220px;}
+#footer .f3{ padding-left:45px; width:153px; float:left; height:220px;}
+#footer .f4{ padding-left:58px; width:153px; float:left; height:220px;}
+#footer .f5{ text-align:center; width:1200px; float:left; color:#FFF;}
+
+
